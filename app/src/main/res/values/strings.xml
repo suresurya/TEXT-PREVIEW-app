@@ -1,0 +1,52 @@
+﻿<resources>
+    <string name="app_name">AYRUS</string>
+
+    <string name="label_text_input">Your text</string>
+    <string name="label_text_size">Text size</string>
+    <string name="label_speed">Speed</string>
+    <string name="label_animation_type">Animation</string>
+    <string name="label_text_color">Text color</string>
+    <string name="label_background_color">Background color</string>
+    <string name="label_loop">Loop</string>
+    <string name="label_random_style">Random style</string>
+    <string name="label_orientation_lock">Lock orientation</string>
+
+    <string name="preview_placeholder">Preview will appear here</string>
+
+    <string name="action_preview">Preview</string>
+    <string name="action_save_preset">Save preset</string>
+    <string name="action_full_screen">Full screen</string>
+    <string name="action_surprise_me">Surprise me</string>
+
+    <string name="error_empty_text">Please enter some text to display.</string>
+    <string name="message_preset_saved">Preset saved</string>
+
+    <string name="display_mode_static">Static</string>
+    <string name="display_mode_horizontal_scroll">Horizontal scroll</string>
+    <string name="display_mode_vertical_scroll">Vertical scroll</string>
+    <string name="display_mode_animated">Animated</string>
+    <string name="display_mode_presentation">Presentation</string>
+
+    <string name="animation_type_fade">Fade</string>
+    <string name="animation_type_slide">Slide</string>
+    <string name="animation_type_zoom">Zoom</string>
+    <string name="animation_type_bounce">Bounce</string>
+    <string name="animation_type_combined">Combined</string>
+
+    <string name="alignment_start">Start</string>
+    <string name="alignment_center">Center</string>
+    <string name="alignment_end">End</string>
+
+    <string name="font_default">Default</string>
+    <string name="font_sans">Sans</string>
+    <string name="font_serif">Serif</string>
+    <string name="font_mono">Mono</string>
+
+    <string name="color_picker_title_text">Select text color</string>
+    <string name="color_picker_title_background">Select background color</string>
+
+    <string name="fullscreen_exit_hint">Swipe down to exit</string>
+    <string name="fullscreen_pause_hint">Tap to pause / resume</string>
+    <string name="fullscreen_gesture_hint">Tap to pause / resume - Swipe down to exit</string>
+
+</resources>

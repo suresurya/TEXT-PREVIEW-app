@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="display_modes">
+        <item>@string/display_mode_static</item>
+        <item>@string/display_mode_horizontal_scroll</item>
+        <item>@string/display_mode_vertical_scroll</item>
+        <item>@string/display_mode_animated</item>
+        <item>@string/display_mode_presentation</item>
+    </string-array>
+
+    <string-array name="alignments">
+        <item>@string/alignment_start</item>
+        <item>@string/alignment_center</item>
+        <item>@string/alignment_end</item>
+    </string-array>
+
+    <string-array name="font_families">
+        <item>@string/font_default</item>
+        <item>@string/font_sans</item>
+        <item>@string/font_serif</item>
+        <item>@string/font_mono</item>
+    </string-array>
+
+    <string-array name="animation_types">
+        <item>@string/animation_type_fade</item>
+        <item>@string/animation_type_slide</item>
+        <item>@string/animation_type_zoom</item>
+        <item>@string/animation_type_bounce</item>
+        <item>@string/animation_type_combined</item>
+    </string-array>
+
+</resources>

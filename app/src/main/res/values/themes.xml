@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.AYRUS" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- You can further customize color, typography, and shape if desired -->
+    </style>
+
+</resources>

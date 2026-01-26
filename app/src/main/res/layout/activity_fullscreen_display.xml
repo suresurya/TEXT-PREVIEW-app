@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_fullscreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CC000000"
+    android:paddingTop="24dp"
+    android:paddingBottom="24dp"
+    tools:context=".FullScreenDisplayActivity">
+
+    <TextView
+        android:id="@+id/text_fullscreen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.04"
+        android:lineSpacingExtra="4dp"
+        android:padding="24dp"
+        tools:text="Sample Text" />
+
+    <TextView
+        android:id="@+id/text_gesture_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:text="@string/fullscreen_gesture_hint"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:alpha="0.8"
+        android:padding="8dp" />
+
+</FrameLayout>
