@@ -87,37 +87,40 @@ TEXT-PREVIEW-app/
 ├── local.properties         # Local SDK paths (not committed)
 └── settings.gradle          # Project settings
 ```
+## 💡 Use Cases
 
-💡 Use Cases
+- Text preview for presentations  
+- Visual testing of text layouts  
+- Learning Android development with Java  
+- Base project for text-based utilities  
 
-Text preview for presentations
+---
 
-Visual testing of text layouts
+## 🚧 Future Improvements
 
-Learning Android development with Java
+- Font size control  
+- Text color customization  
+- Vertical scrolling support  
+- Export preview as image  
 
-Base project for text-based utilities
+---
 
-🚧 Future Improvements
+## 🤝 Contributing
 
-Font size control
+Contributions are welcome! 🎉
 
-Text color customization
-
-Vertical scrolling support
-
-Export preview as image
-
-🤝 Contributing
-
-1.Contributions are welcome!
-
-2.Fork the repository
-
-3.Create a feature branch
-
-4.Commit your changes
-
-5.Push to your branch
-
-6.pen a Pull Request
+1. Fork the repository  
+2. Create your feature branch  
+   ```sh
+   git checkout -b feature/AmazingFeature
+   ```
+3. Commit your changes  
+   ```sh
+   git commit -m "Add AmazingFeature"
+   ```
+4. Push to your branch  
+   ```sh
+   git push origin feature/AmazingFeature
+   ```
+5. Open a Pull Request  
+```
