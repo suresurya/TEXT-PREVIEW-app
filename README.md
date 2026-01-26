@@ -124,3 +124,17 @@ Contributions are welcome! 🎉
    ```
 5. Open a Pull Request  
 ```
+```
+
+## ⬇️ Download
+
+You can download and install the application from the link below:
+
+🔗 **Google Drive APK:**  
+https://drive.google.com/file/d/1yyEBC3qx9JBygSuLne76Q2dMdiUxY_ob/view?usp=sharing
+
+> ⚠️ **Note:**  
+> - Enable **“Install from unknown sources”** on your Android device  
+> - This app is built for learning and demonstration purposes
+```
+
