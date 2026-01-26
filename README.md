@@ -62,28 +62,31 @@ The project is built using **pure Java** with **Android Studio and Gradle**, foc
 
 Run the app on an emulator or physical device
 
-📂 Project Structure
+## 📂 Project Structure
+
+```text
 TEXT-PREVIEW-app/
-├── .gradle/                 # Gradle cache
-├── .idea/                  # Android Studio configuration
-├── .kotlin/                # Kotlin/Gradle metadata
+├── .gradle/                 # Gradle cache (auto-generated)
+├── .idea/                  # Android Studio configuration files
 ├── app/                     # Main application module
 │   ├── src/
 │   │   ├── main/
 │   │   │   ├── java/        # Java source code
 │   │   │   ├── res/         # Layouts, drawables, values
 │   │   │   └── AndroidManifest.xml
-│   │   └── test/
-│   └── build.gradle
-├── build/                   # Generated build files
-├── gradle/                  # Gradle wrapper
+│   │   └── test/            # Unit tests
+│   ├── build.gradle         # App-level Gradle configuration
+│   └── proguard-rules.pro
+├── build/                   # Generated build outputs
+├── gradle/                  # Gradle wrapper files
 ├── .gitignore               # Git ignore rules
-├── build.gradle             # Project-level Gradle config
-├── gradle.properties
-├── gradlew
-├── gradlew.bat
-├── local.properties
-└── settings.gradle
+├── build.gradle             # Project-level Gradle configuration
+├── gradle.properties        # Gradle settings
+├── gradlew                  # Gradle wrapper (Unix)
+├── gradlew.bat              # Gradle wrapper (Windows)
+├── local.properties         # Local SDK paths (not committed)
+└── settings.gradle          # Project settings
+```
 
 💡 Use Cases
 
