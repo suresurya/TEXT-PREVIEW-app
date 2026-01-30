@@ -62,59 +62,79 @@ The project is built using **pure Java** with **Android Studio and Gradle**, foc
 
 Run the app on an emulator or physical device
 
-📂 Project Structure
+## 📂 Project Structure
+
+```text
 TEXT-PREVIEW-app/
-├── .gradle/                 # Gradle cache
-├── .idea/                  # Android Studio configuration
-├── .kotlin/                # Kotlin/Gradle metadata
+├── .gradle/                 # Gradle cache (auto-generated)
+├── .idea/                  # Android Studio configuration files
 ├── app/                     # Main application module
 │   ├── src/
 │   │   ├── main/
 │   │   │   ├── java/        # Java source code
 │   │   │   ├── res/         # Layouts, drawables, values
 │   │   │   └── AndroidManifest.xml
-│   │   └── test/
-│   └── build.gradle
-├── build/                   # Generated build files
-├── gradle/                  # Gradle wrapper
+│   │   └── test/            # Unit tests
+│   ├── build.gradle         # App-level Gradle configuration
+│   └── proguard-rules.pro
+├── build/                   # Generated build outputs
+├── gradle/                  # Gradle wrapper files
 ├── .gitignore               # Git ignore rules
-├── build.gradle             # Project-level Gradle config
-├── gradle.properties
-├── gradlew
-├── gradlew.bat
-├── local.properties
-└── settings.gradle
+├── build.gradle             # Project-level Gradle configuration
+├── gradle.properties        # Gradle settings
+├── gradlew                  # Gradle wrapper (Unix)
+├── gradlew.bat              # Gradle wrapper (Windows)
+├── local.properties         # Local SDK paths (not committed)
+└── settings.gradle          # Project settings
+```
+## 💡 Use Cases
 
-💡 Use Cases
+- Text preview for presentations  
+- Visual testing of text layouts  
+- Learning Android development with Java  
+- Base project for text-based utilities  
 
-Text preview for presentations
+---
 
-Visual testing of text layouts
+## 🚧 Future Improvements
 
-Learning Android development with Java
+- Font size control  
+- Text color customization  
+- Vertical scrolling support  
+- Export preview as image  
 
-Base project for text-based utilities
+---
 
-🚧 Future Improvements
+## 🤝 Contributing
 
-Font size control
+Contributions are welcome! 🎉
 
-Text color customization
+1. Fork the repository  
+2. Create your feature branch  
+   ```sh
+   git checkout -b feature/AmazingFeature
+   ```
+3. Commit your changes  
+   ```sh
+   git commit -m "Add AmazingFeature"
+   ```
+4. Push to your branch  
+   ```sh
+   git push origin feature/AmazingFeature
+   ```
+5. Open a Pull Request  
+```
+```
 
-Vertical scrolling support
+## ⬇️ Download
 
-Export preview as image
+You can download and install the application from the link below:
 
-🤝 Contributing
+🔗 **Google Drive APK:**  
+https://drive.google.com/file/d/1yyEBC3qx9JBygSuLne76Q2dMdiUxY_ob/view?usp=sharing
 
-1.Contributions are welcome!
+> ⚠️ **Note:**  
+> - Enable **“Install from unknown sources”** on your Android device  
+> - This app is built for learning and demonstration purposes
+```
 
-2.Fork the repository
-
-3.Create a feature branch
-
-4.Commit your changes
-
-5.Push to your branch
-
-6.pen a Pull Request
