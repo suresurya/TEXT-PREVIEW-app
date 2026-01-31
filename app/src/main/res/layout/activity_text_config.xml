@@ -245,7 +245,7 @@
         android:textAppearance="@style/TextAppearance.Material3.DisplayMedium"
         android:background="@drawable/bg_premium_surface"
         android:textColor="@color/pixelplay_on_surface"
-        android:letterSpacing="0.03"
+        android:letterSpacing="0.05"
         app:layout_constraintTop_toBottomOf="@id/container_toggles"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
