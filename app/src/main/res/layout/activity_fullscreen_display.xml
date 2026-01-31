@@ -4,7 +4,7 @@
     android:id="@+id/root_fullscreen"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#CC000000"
+    android:background="@color/pixelplay_background"
     android:paddingTop="24dp"
     android:paddingBottom="24dp"
     tools:context=".FullScreenDisplayActivity">
@@ -34,5 +34,16 @@
         android:textColor="@color/white"
         android:alpha="0.8"
         android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/watermark_fullscreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:text="@ made by suresurya"
+        android:textColor="@color/pixelplay_on_surface_variant"
+        android:textSize="12sp"
+        android:alpha="0.6" />
 
 </FrameLayout>

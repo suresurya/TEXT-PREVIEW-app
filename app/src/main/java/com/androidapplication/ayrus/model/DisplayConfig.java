@@ -23,6 +23,8 @@ public class DisplayConfig implements Parcelable {
     private final boolean randomStyleEnabled;
     private final boolean orientationLocked;
     private final long timestampMillis;
+    private final boolean hasShadow;
+    private final boolean hasGlow;
 
     public DisplayConfig(String text,
                          DisplayMode displayMode,
@@ -36,7 +38,9 @@ public class DisplayConfig implements Parcelable {
                          boolean loop,
                          boolean randomStyleEnabled,
                          boolean orientationLocked,
-                         long timestampMillis) {
+                         long timestampMillis,
+                         boolean hasShadow,
+                         boolean hasGlow) {
         this.text = text;
         this.displayMode = displayMode;
         this.textAlignment = textAlignment;
@@ -50,6 +54,8 @@ public class DisplayConfig implements Parcelable {
         this.randomStyleEnabled = randomStyleEnabled;
         this.orientationLocked = orientationLocked;
         this.timestampMillis = timestampMillis;
+        this.hasShadow = hasShadow;
+        this.hasGlow = hasGlow;
     }
 
     protected DisplayConfig(Parcel in) {
@@ -66,6 +72,8 @@ public class DisplayConfig implements Parcelable {
         randomStyleEnabled = in.readByte() != 0;
         orientationLocked = in.readByte() != 0;
         timestampMillis = in.readLong();
+        hasShadow = in.readByte() != 0;
+        hasGlow = in.readByte() != 0;
     }
 
     public static final Creator<DisplayConfig> CREATOR = new Creator<DisplayConfig>() {
@@ -132,10 +140,18 @@ public class DisplayConfig implements Parcelable {
         return timestampMillis;
     }
 
+    public boolean hasShadow() {
+        return hasShadow;
+    }
+
+    public boolean hasGlow() {
+        return hasGlow;
+    }
+
     public DisplayConfig copyWithTimestamp(long newTimestamp) {
         return new DisplayConfig(text, displayMode, textAlignment, fontFamilyKey, textSizeSp,
                 textColor, backgroundColor, speedLevel, animationType, loop,
-                randomStyleEnabled, orientationLocked, newTimestamp);
+                randomStyleEnabled, orientationLocked, newTimestamp, hasShadow, hasGlow);
     }
 
     @Override
@@ -158,5 +174,7 @@ public class DisplayConfig implements Parcelable {
         dest.writeByte((byte) (randomStyleEnabled ? 1 : 0));
         dest.writeByte((byte) (orientationLocked ? 1 : 0));
         dest.writeLong(timestampMillis);
+        dest.writeByte((byte) (hasShadow ? 1 : 0));
+        dest.writeByte((byte) (hasGlow ? 1 : 0));
     }
 }

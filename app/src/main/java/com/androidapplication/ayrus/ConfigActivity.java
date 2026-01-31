@@ -49,6 +49,8 @@ public class ConfigActivity extends AppCompatActivity {
     private MaterialSwitch switchLoop;
     private MaterialSwitch switchRandom;
     private MaterialSwitch switchOrientationLock;
+    private MaterialSwitch switchTextShadow;
+    private MaterialSwitch switchTextGlow;
     private TextView textPreview;
     private View rootView;
 
@@ -118,6 +120,8 @@ public class ConfigActivity extends AppCompatActivity {
         switchLoop = findViewById(R.id.switch_loop);
         switchRandom = findViewById(R.id.switch_random);
         switchOrientationLock = findViewById(R.id.switch_orientation_lock);
+        switchTextShadow = findViewById(R.id.switch_text_shadow);
+        switchTextGlow = findViewById(R.id.switch_text_glow);
         textPreview = findViewById(R.id.text_preview);
     }
 
@@ -392,6 +396,8 @@ public class ConfigActivity extends AppCompatActivity {
         boolean loop = switchLoop.isChecked();
         boolean random = switchRandom.isChecked();
         boolean orientationLocked = switchOrientationLock.isChecked();
+        boolean hasShadow = switchTextShadow.isChecked();
+        boolean hasGlow = switchTextGlow.isChecked();
 
         AnimationType animationType;
         if (mode == DisplayMode.ANIMATED || mode == DisplayMode.PRESENTATION) {
@@ -413,7 +419,9 @@ public class ConfigActivity extends AppCompatActivity {
                 loop,
                 random,
                 orientationLocked,
-                System.currentTimeMillis()
+                System.currentTimeMillis(),
+                hasShadow,
+                hasGlow
         );
 
         if (random) {
@@ -582,6 +590,8 @@ public class ConfigActivity extends AppCompatActivity {
         switchLoop.setChecked(config.isLoop());
         switchRandom.setChecked(config.isRandomStyleEnabled());
         switchOrientationLock.setChecked(config.isOrientationLocked());
+        switchTextShadow.setChecked(config.hasShadow());
+        switchTextGlow.setChecked(config.hasGlow());
 
         // Animation type
         int animSelection = 4; // default Combined

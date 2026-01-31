@@ -19,7 +19,7 @@
 
         <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/input_layout_text"
-        style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+        style="@style/Widget.AYRUS.TextInputLayout"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:hint="@string/label_text_input"
@@ -29,6 +29,7 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/edit_text_input"
+            style="@style/Widget.AYRUS.TextInputEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textMultiLine"
@@ -216,6 +217,22 @@
             android:layout_weight="1"
             android:text="@string/label_orientation_lock"
             android:layout_marginStart="8dp" />
+
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/switch_text_shadow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/label_text_shadow"
+            android:layout_marginStart="8dp" />
+
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/switch_text_glow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/label_text_glow"
+            android:layout_marginStart="8dp" />
     </LinearLayout>
 
     <TextView
@@ -226,8 +243,8 @@
         android:gravity="center"
         android:text="@string/preview_placeholder"
         android:textAppearance="@style/TextAppearance.Material3.DisplayMedium"
-        android:background="@drawable/preview_background"
-        android:textColor="@color/white"
+        android:background="@drawable/bg_premium_surface"
+        android:textColor="@color/pixelplay_on_surface"
         android:letterSpacing="0.03"
         app:layout_constraintTop_toBottomOf="@id/container_toggles"
         app:layout_constraintStart_toStartOf="parent"
@@ -248,7 +265,7 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_preview"
-            style="@style/Widget.Material3.Button.TonalButton"
+            style="@style/Widget.AYRUS.Button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -256,7 +273,7 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_save_preset"
-            style="@style/Widget.Material3.Button.OutlinedButton"
+            style="@style/Widget.AYRUS.Button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -265,7 +282,7 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_full_screen"
-            style="@style/Widget.Material3.Button"
+            style="@style/Widget.AYRUS.Button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -274,13 +291,24 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_surprise_me"
-            style="@style/Widget.Material3.Button.OutlinedButton"
+            style="@style/Widget.AYRUS.Button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/action_surprise_me"
             android:layout_marginStart="8dp" />
     </LinearLayout>
+
+        <TextView
+            android:id="@+id/watermark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@ made by suresurya"
+            android:textColor="@color/pixelplay_on_surface_variant"
+            android:textSize="12sp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

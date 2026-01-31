@@ -10,6 +10,8 @@
     <string name="label_loop">Loop</string>
     <string name="label_random_style">Random style</string>
     <string name="label_orientation_lock">Lock orientation</string>
+    <string name="label_text_shadow">Shadow</string>
+    <string name="label_text_glow">Glow</string>
 
     <string name="preview_placeholder">Preview will appear here</string>
 

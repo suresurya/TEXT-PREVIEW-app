@@ -38,6 +38,15 @@ public class AnimationHelper {
 
         RandomStyleManager.applyFontToTextView(textView, config.getFontFamilyKey());
 
+        // Apply shadow or glow effects
+        if (config.hasGlow()) {
+            textView.setShadowLayer(15, 0, 0, config.getTextColor());
+        } else if (config.hasShadow()) {
+            textView.setShadowLayer(10, 5, 5, Color.BLACK);
+        } else {
+            textView.setShadowLayer(0, 0, 0, 0);
+        }
+
         textView.setTranslationX(0f);
         textView.setTranslationY(0f);
         textView.setAlpha(1f);
