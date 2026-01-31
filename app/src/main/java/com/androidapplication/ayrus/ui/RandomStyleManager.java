@@ -86,7 +86,9 @@ public class RandomStyleManager {
                 base.isLoop(),
                 true,
                 base.isOrientationLocked(),
-                base.getTimestampMillis()
+                base.getTimestampMillis(),
+                base.hasShadow(),
+                base.hasGlow()
         );
     }
 

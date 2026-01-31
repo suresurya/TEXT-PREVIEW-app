@@ -34,6 +34,23 @@ android {
     buildFeatures {
         compose true
     }
+
+    sourceSets {
+        main {
+            java {
+                exclude '**/com/androidapplication/ayrus/ui/glancewidget/**'
+                exclude '**/com/androidapplication/ayrus/ui/ui/**'
+                exclude '**/com/androidapplication/ayrus/ui copy/**'
+                exclude '**/com/androidapplication/ayrus/ui/ui copy/**'
+            }
+            kotlin {
+                exclude '**/com/androidapplication/ayrus/ui/glancewidget/**'
+                exclude '**/com/androidapplication/ayrus/ui/ui/**'
+                exclude '**/com/androidapplication/ayrus/ui copy/**'
+                exclude '**/com/androidapplication/ayrus/ui/ui copy/**'
+            }
+        }
+    }
 }
 
 dependencies {

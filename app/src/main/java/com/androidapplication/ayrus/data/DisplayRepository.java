@@ -144,7 +144,9 @@ public class DisplayRepository {
                 entity.loop,
                 entity.randomStyleEnabled,
                 entity.orientationLocked,
-                entity.updatedAtMillis
+                entity.updatedAtMillis,
+                false,
+                false
         );
     }
 }
