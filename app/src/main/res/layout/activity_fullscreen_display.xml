@@ -45,6 +45,6 @@
         android:text="@ made by suresurya"
         android:textColor="@color/pixelplay_on_surface_variant"
         android:textSize="12sp"
-        android:alpha="0.6" />
+        android:alpha="0.4" />
 
 </FrameLayout>
