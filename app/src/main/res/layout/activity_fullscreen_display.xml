@@ -20,7 +20,7 @@
         android:textStyle="bold"
         android:letterSpacing="0.04"
         android:lineSpacingExtra="4dp"
-        android:padding="24dp"
+        android:padding="32dp"
         tools:text="Sample Text" />
 
     <TextView
