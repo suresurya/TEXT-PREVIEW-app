@@ -10,6 +10,6 @@
     <color name="pixelplay_secondary">#FFF06292</color>
     <color name="pixelplay_tertiary">#FFFF8A65</color>
     <color name="pixelplay_surface">#FF2A1F40</color>
-    <color name="pixelplay_on_surface">#FFE1BEE7</color>
+    <color name="pixelplay_on_surface">#FFFFFFFF</color>
     <color name="pixelplay_on_surface_variant">#99E1BEE7</color>
 </resources>
