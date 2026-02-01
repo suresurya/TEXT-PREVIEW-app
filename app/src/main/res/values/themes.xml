@@ -41,7 +41,7 @@
 
     <style name="Widget.AYRUS.TextInputEditText" parent="android:Widget.EditText">
         <item name="android:background">@drawable/bg_premium_input</item>
-        <item name="android:padding">16dp</item>
+        <item name="android:padding">20dp</item>
         <item name="android:textColor">@color/pixelplay_on_surface</item>
         <item name="android:textColorHint">@color/pixelplay_on_surface_variant</item>
     </style>
