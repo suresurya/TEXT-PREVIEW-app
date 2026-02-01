@@ -156,8 +156,8 @@
 
             <View
                 android:id="@+id/view_text_color"
-                android:layout_width="56dp"
-                android:layout_height="28dp"
+                android:layout_width="48dp"
+                android:layout_height="24dp"
                 android:background="@color/white"
                 android:layout_marginTop="4dp" />
         </LinearLayout>
@@ -177,8 +177,8 @@
 
             <View
                 android:id="@+id/view_background_color"
-                android:layout_width="56dp"
-                android:layout_height="28dp"
+                android:layout_width="48dp"
+                android:layout_height="24dp"
                 android:background="@color/black"
                 android:layout_marginTop="4dp" />
         </LinearLayout>
@@ -245,13 +245,13 @@
         android:textAppearance="@style/TextAppearance.Material3.DisplayMedium"
         android:background="@drawable/bg_premium_surface"
         android:textColor="@color/pixelplay_on_surface"
-        android:letterSpacing="0.05"
+        android:letterSpacing="0.03"
         app:layout_constraintTop_toBottomOf="@id/container_toggles"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toTopOf="@id/container_buttons"
         android:layout_marginTop="24dp"
-        android:padding="20dp" />
+        android:padding="16dp" />
 
     <LinearLayout
         android:id="@+id/container_buttons"
@@ -304,7 +304,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@ made by suresurya"
-            android:textColor="#88E1BEE7"
+            android:textColor="@color/pixelplay_on_surface_variant"
             android:textSize="12sp"
             android:layout_marginBottom="8dp"
             app:layout_constraintBottom_toBottomOf="parent"

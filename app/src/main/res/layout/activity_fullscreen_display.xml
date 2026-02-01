@@ -18,7 +18,7 @@
         android:textColor="@color/white"
         android:textSize="36sp"
         android:textStyle="bold"
-        android:letterSpacing="0.06"
+        android:letterSpacing="0.04"
         android:lineSpacingExtra="4dp"
         android:padding="24dp"
         tools:text="Sample Text" />
@@ -33,8 +33,7 @@
         android:textSize="12sp"
         android:textColor="@color/white"
         android:alpha="0.8"
-        android:padding="8dp"
-        android:background="#33000000" />
+        android:padding="8dp" />
 
     <TextView
         android:id="@+id/watermark_fullscreen"
@@ -45,6 +44,6 @@
         android:text="@ made by suresurya"
         android:textColor="@color/pixelplay_on_surface_variant"
         android:textSize="12sp"
-        android:alpha="0.4" />
+        android:alpha="0.6" />
 
 </FrameLayout>
