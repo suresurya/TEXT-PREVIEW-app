@@ -5,5 +5,6 @@ public enum AnimationType {
     FADE,
     SLIDE,
     ZOOM,
-    BOUNCE
+    BOUNCE,
+    COMBINED 
 }
