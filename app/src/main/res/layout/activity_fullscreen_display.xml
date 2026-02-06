@@ -18,7 +18,7 @@
         android:textColor="@color/white"
         android:textSize="36sp"
         android:textStyle="bold"
-        android:letterSpacing="0.04"
+        android:letterSpacing="0.06"
         android:lineSpacingExtra="4dp"
         android:padding="32dp"
         tools:text="Sample Text" />
