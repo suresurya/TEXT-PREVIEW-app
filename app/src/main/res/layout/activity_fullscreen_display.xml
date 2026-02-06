@@ -18,7 +18,7 @@
         android:textColor="@color/white"
         android:textSize="36sp"
         android:textStyle="bold"
-        android:letterSpacing="0.06"
+        android:letterSpacing="0.04"
         android:lineSpacingExtra="4dp"
         android:padding="32dp"
         tools:text="Sample Text" />
@@ -30,7 +30,7 @@
         android:layout_gravity="bottom"
         android:gravity="center"
         android:text="@string/fullscreen_gesture_hint"
-        android:textSize="14sp"
+        android:textSize="12sp"
         android:textColor="@color/white"
         android:alpha="0.9"
         android:padding="8dp" />
