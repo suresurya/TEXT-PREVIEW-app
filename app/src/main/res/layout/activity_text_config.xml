@@ -209,7 +209,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/label_random_style"
-            android:layout_marginStart="8dp" />
+            android:layout_marginStart="12dp" />
 
         <com.google.android.material.materialswitch.MaterialSwitch
             android:id="@+id/switch_orientation_lock"
@@ -217,7 +217,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/label_orientation_lock"
-            android:layout_marginStart="8dp" />
+            android:layout_marginStart="12dp" />
 
         <com.google.android.material.materialswitch.MaterialSwitch
             android:id="@+id/switch_text_shadow"
@@ -225,7 +225,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/label_text_shadow"
-            android:layout_marginStart="8dp" />
+            android:layout_marginStart="12dp" />
 
         <com.google.android.material.materialswitch.MaterialSwitch
             android:id="@+id/switch_text_glow"
@@ -233,7 +233,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/label_text_glow"
-            android:layout_marginStart="8dp" />
+            android:layout_marginStart="12dp" />
     </LinearLayout>
 
     <TextView
@@ -279,7 +279,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/action_save_preset"
-            android:layout_marginStart="8dp" />
+            android:layout_marginStart="12dp" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_full_screen"
@@ -288,7 +288,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/action_full_screen"
-            android:layout_marginStart="8dp" />
+            android:layout_marginStart="12dp" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_surprise_me"
@@ -297,7 +297,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/action_surprise_me"
-            android:layout_marginStart="8dp" />
+            android:layout_marginStart="12dp" />
     </LinearLayout>
 
         <TextView
