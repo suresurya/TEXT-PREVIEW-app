@@ -306,7 +306,7 @@
             android:layout_height="wrap_content"
             android:text="@ made by suresurya"
             android:textColor="@color/pixelplay_on_surface_variant"
-            android:textSize="12sp"
+            android:textSize="14sp"
             android:layout_marginBottom="8dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
