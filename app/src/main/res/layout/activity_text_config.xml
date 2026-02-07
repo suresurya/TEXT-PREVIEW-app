@@ -243,7 +243,7 @@
         android:minHeight="220dp"
         android:gravity="center"
         android:text="@string/preview_placeholder"
-        android:textAppearance="@style/TextAppearance.Material3.DisplayMedium"
+        android:textAppearance="@style/TextAppearance.Material3.DisplaySmall"
         android:background="@drawable/bg_premium_surface"
         android:textColor="@color/pixelplay_on_surface"
         android:letterSpacing="0.03"
