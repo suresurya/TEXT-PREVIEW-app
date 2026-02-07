@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/pixelplay_background"
-    android:paddingTop="32dp"
-    android:paddingBottom="32dp"
+    android:paddingTop="24dp"
+    android:paddingBottom="24dp"
     tools:context=".FullScreenDisplayActivity">
 
     <TextView
@@ -16,10 +16,10 @@
         android:layout_gravity="center"
         android:gravity="center"
         android:textColor="@color/white"
-        android:textSize="38sp"
+        android:textSize="36sp"
         android:textStyle="bold"
-        android:letterSpacing="0.06"
-        android:lineSpacingExtra="6dp"
+        android:letterSpacing="0.04"
+        android:lineSpacingExtra="4dp"
         android:padding="32dp"
         tools:text="Sample Text" />
 
@@ -30,17 +30,17 @@
         android:layout_gravity="bottom"
         android:gravity="center"
         android:text="@string/fullscreen_gesture_hint"
-        android:textSize="14sp"
+        android:textSize="12sp"
         android:textColor="@color/white"
         android:alpha="0.9"
-        android:padding="12dp" />
+        android:padding="8dp" />
 
     <TextView
         android:id="@+id/watermark_fullscreen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
-        android:layout_margin="20dp"
+        android:layout_margin="16dp"
         android:text="@ made by suresurya"
         android:textColor="@color/pixelplay_on_surface_variant"
         android:textSize="14sp"
