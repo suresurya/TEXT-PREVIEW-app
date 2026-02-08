@@ -269,7 +269,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/action_preview" />
+            android:text="@string/action_preview"
+            android:layout_marginEnd="8dp" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_save_preset"
@@ -278,7 +279,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/action_save_preset"
-            android:layout_marginStart="8dp" />
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_full_screen"
@@ -287,7 +289,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/action_full_screen"
-            android:layout_marginStart="8dp" />
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_surprise_me"
