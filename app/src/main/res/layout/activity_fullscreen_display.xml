@@ -44,6 +44,10 @@
         android:text="@ made by suresurya"
         android:textColor="@color/pixelplay_on_surface_variant"
         android:textSize="14sp"
-        android:alpha="0.7" />
+        android:alpha="0.7"
+        android:shadowColor="#80000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1" />
 
 </FrameLayout>
