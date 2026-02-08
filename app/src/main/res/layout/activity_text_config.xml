@@ -239,7 +239,7 @@
         android:id="@+id/text_preview"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:minHeight="220dp"
+        android:minHeight="240dp"
         android:gravity="center"
         android:text="@string/preview_placeholder"
         android:textAppearance="@style/TextAppearance.Material3.DisplayMedium"
@@ -250,8 +250,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toTopOf="@id/container_buttons"
-        android:layout_marginTop="24dp"
-        android:padding="16dp" />
+        android:layout_marginTop="32dp"
+        android:padding="24dp" />
 
     <LinearLayout
         android:id="@+id/container_buttons"
