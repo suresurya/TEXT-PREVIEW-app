@@ -19,7 +19,8 @@
         <item name="colorOnSurfaceVariant">@color/pixelplay_on_surface_variant</item>
 
         <!-- Status bar color. -->
-        <item name="android:statusBarColor">@color/pixelplay_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">#CC1E1234</item>
 
         <!-- Set the default font family -->
         <item name="android:fontFamily">@font/montserrat</item>
