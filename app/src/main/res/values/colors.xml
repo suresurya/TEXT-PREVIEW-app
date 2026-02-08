@@ -4,7 +4,7 @@
     <color name="white">#FFFFFFFF</color>
 
     <!-- PixelPlay Premium Palette -->
-    <color name="pixelplay_background">#FF1A0F2A</color>
+    <color name="pixelplay_background">#FF1E1234</color>
     <color name="pixelplay_primary">#FFAB47BC</color>
     <color name="pixelplay_primary_faded">#66AB47BC</color>
     <color name="pixelplay_secondary">#FFF06292</color>
