@@ -53,4 +53,11 @@
         <item name="android:elevation">2dp</item>
     </style>
 
+    <style name="Widget.AYRUS.Switch" parent="Widget.Material3.CompoundButton.Switch">
+        <item name="android:thumb">@drawable/bg_premium_switch_thumb</item>
+        <item name="android:track">@drawable/bg_premium_switch_track</item>
+        <item name="android:thumbTint">@null</item>
+        <item name="android:trackTint">@null</item>
+    </style>
+
 </resources>

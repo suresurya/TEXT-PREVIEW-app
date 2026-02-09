@@ -199,6 +199,7 @@
 
         <com.google.android.material.materialswitch.MaterialSwitch
             android:id="@+id/switch_loop"
+            style="@style/Widget.AYRUS.Switch"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
