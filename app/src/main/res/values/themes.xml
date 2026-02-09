@@ -46,4 +46,11 @@
         <item name="android:textColorHint">@color/pixelplay_on_surface_variant</item>
     </style>
 
+    <style name="Widget.AYRUS.Spinner" parent="Widget.Material3.Spinner.OutlinedBox">
+        <item name="android:background">@drawable/bg_premium_spinner</item>
+        <item name="android:textColor">@color/pixelplay_on_surface</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:elevation">2dp</item>
+    </style>
+
 </resources>
