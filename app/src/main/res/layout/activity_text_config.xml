@@ -12,10 +12,12 @@
         android:id="@+id/root_config"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/bg_premium_card_elevated"
         android:paddingStart="16dp"
         android:paddingEnd="16dp"
         android:paddingBottom="16dp"
-        android:paddingTop="32dp">
+        android:paddingTop="32dp"
+        android:layout_margin="16dp">
 
         <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/input_layout_text"
