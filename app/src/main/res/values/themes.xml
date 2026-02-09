@@ -69,4 +69,10 @@
         <item name="android:secondaryProgressTint">@null</item>
     </style>
 
+    <style name="Widget.AYRUS.FloatingActionButton" parent="Widget.Material3.FloatingActionButton.Primary">
+        <item name="android:background">@drawable/bg_premium_fab</item>
+        <item name="android:tint">@null</item>
+        <item name="android:elevation">8dp</item>
+    </style>
+
 </resources>
