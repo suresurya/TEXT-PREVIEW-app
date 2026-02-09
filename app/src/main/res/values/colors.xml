@@ -4,12 +4,13 @@
     <color name="white">#FFFFFFFF</color>
 
     <!-- PixelPlay Premium Palette -->
-    <color name="pixelplay_background">#FF1E1234</color>
+    <color name="pixelplay_background_start">#FF1E1234</color>
+    <color name="pixelplay_background_center">#FF2A1F40</color>
+    <color name="pixelplay_background_end">#FF3D2A5C</color>
     <color name="pixelplay_primary">#FFAB47BC</color>
     <color name="pixelplay_primary_faded">#66AB47BC</color>
     <color name="pixelplay_secondary">#FFF06292</color>
     <color name="pixelplay_tertiary">#FFFF8A65</color>
-    <color name="pixelplay_accent">#FF7C4DFF</color>
     <color name="pixelplay_surface">#FF2A1F40</color>
     <color name="pixelplay_on_surface">#FFFFFFFF</color>
     <color name="pixelplay_on_surface_variant">#99E1BEE7</color>

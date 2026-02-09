@@ -4,7 +4,7 @@
     android:id="@+id/root_fullscreen"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/pixelplay_background"
+    android:background="@drawable/bg_premium_gradient"
     android:paddingTop="24dp"
     android:paddingBottom="24dp"
     tools:context=".FullScreenDisplayActivity">
@@ -16,10 +16,10 @@
         android:layout_gravity="center"
         android:gravity="center"
         android:textColor="@color/white"
-        android:textSize="42sp"
+        android:textSize="36sp"
         android:textStyle="bold"
-        android:letterSpacing="0.06"
-        android:lineSpacingExtra="6dp"
+        android:letterSpacing="0.04"
+        android:lineSpacingExtra="4dp"
         android:padding="32dp"
         tools:text="Sample Text" />
 
@@ -44,10 +44,6 @@
         android:text="@ made by suresurya"
         android:textColor="@color/pixelplay_on_surface_variant"
         android:textSize="14sp"
-        android:alpha="0.7"
-        android:shadowColor="#80000000"
-        android:shadowDx="1"
-        android:shadowDy="1"
-        android:shadowRadius="1" />
+        android:alpha="0.7" />
 
 </FrameLayout>

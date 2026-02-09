@@ -3,10 +3,7 @@
     android:color="?android:attr/colorControlHighlight">
     <item>
         <shape android:shape="rectangle">
-            <gradient
-                android:startColor="@color/pixelplay_primary"
-                android:endColor="@color/pixelplay_secondary"
-                android:angle="135" />
+            <solid android:color="@color/pixelplay_primary" />
             <corners android:radius="28dp" />
         </shape>
     </item>
