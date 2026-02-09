@@ -42,9 +42,12 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_margin="16dp"
+        android:background="@drawable/bg_premium_watermark"
+        android:padding="8dp"
         android:text="@ made by suresurya"
-        android:textColor="@color/pixelplay_on_surface_variant"
+        android:textColor="@color/white"
         android:textSize="14sp"
-        android:alpha="0.7" />
+        android:textStyle="bold"
+        android:alpha="0.8" />
 
 </FrameLayout>
