@@ -82,6 +82,7 @@
 
     <SeekBar
         android:id="@+id/seek_text_size"
+        style="@style/Widget.AYRUS.SeekBar"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:max="80"

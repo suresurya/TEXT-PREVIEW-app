@@ -60,4 +60,13 @@
         <item name="android:trackTint">@null</item>
     </style>
 
+    <style name="Widget.AYRUS.SeekBar" parent="Widget.Material3.SeekBar">
+        <item name="android:progressDrawable">@drawable/bg_premium_seekbar_progress</item>
+        <item name="android:indeterminateDrawable">@drawable/bg_premium_seekbar_track</item>
+        <item name="android:thumb">@drawable/bg_premium_seekbar_thumb</item>
+        <item name="android:thumbTint">@null</item>
+        <item name="android:progressTint">@null</item>
+        <item name="android:secondaryProgressTint">@null</item>
+    </style>
+
 </resources>
